@@ -3,21 +3,34 @@ package com.mycompany.progtech;
 import java.awt.*;        // Using AWT container and component classes
 import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.lang.reflect.Constructor;
+import java.util.logging.Level;
     
 public class main {
  
     
    // The entry main() method
-   public static void main(String[] args) {
-      
-      
+   public static void main(String[] args) 
+   {   
       Logger logger = Logger.getInstance();
-      AComputer c1 = new Computer("intel ", "ddr3 ", 4, "nvidia ", "ssd ",4, "TeslaPower ", 500, "cougat", "asus","bequiet");
-      AComputer aComputerPlus = new RGB(c1);
-      logger.successfull(150000);
+      AComputer c1 = new Computer("intel ", "ddr3 ", 4, "nvidia ", "ssd ",4, "TeslaPower ", 500, "cougar", "asus","bequiet",400000);
+      //AComputer aComputerPlus = new RGB(c1);
+      logger.successfull(2300);
+      ObsSub order = new ObsSub();
+      
+      Observer2 obs = new Observer2();
+      
+      order.register(obs);
+      
+      order.echoToAll();
+      if(obs.isBoolVar()){
+          c1 = new RGB(c1);
+      }
       
       
-      System.out.println(aComputerPlus.print());
+      
+      
+      
+      System.out.println(c1.print());
    }
  
 }

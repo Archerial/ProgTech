@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 
 /**
  *
- * @author Feri
+ * @author Adam
  */
 public class Logger {
     private static Logger logger = null;
@@ -43,8 +43,8 @@ public class Logger {
     public void successfull (int price) 
     {
         id++;
-        writer.println("A (" + id + ")szamu rendeles ara: " + price + "Ft");
-        System.out.println("A (" + id + ")szamu rendeles ara: " + price + "Ft");
+        writer.println("A(z) (" + id + ")szamu rendeles ara: " + price + "Ft");
+        System.out.println("A(z) (" + id + ")szamu rendeles ara: " + price + "Ft");
         
     }
     public void failure () 

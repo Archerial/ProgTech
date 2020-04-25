@@ -14,6 +14,7 @@ public class RGB extends ComputerPlus{
         super(comp);
     }
     
+    
     @Override
     public String printPlus(){
         return "+ RGB";

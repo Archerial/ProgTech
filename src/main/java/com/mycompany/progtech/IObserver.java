@@ -9,7 +9,6 @@ package com.mycompany.progtech;
  *
  * @author Adam
  */
-abstract public class AComputer
-{
-    public abstract String print();
+public interface IObserver {
+    public void update();
 }

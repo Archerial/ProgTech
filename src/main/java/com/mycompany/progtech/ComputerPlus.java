@@ -16,6 +16,10 @@ abstract public class ComputerPlus extends AComputer
         this.computer = computer;
     }
     
+     public RGB newInstance(AComputer computer){
+        return new RGB(computer);
+    }
+    
     @Override
     public String print() {
         return computer.print() + printPlus();

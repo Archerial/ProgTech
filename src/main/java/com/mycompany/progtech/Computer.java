@@ -22,6 +22,15 @@ public class Computer extends AComputer
     private String hazTípus; 
     private String alaplap;
     private String proccesszorHűtő;
+    private int ar;
+
+    public int getAr() {
+        return ar;
+    }
+
+    public void setAr(int ar) {
+        this.ar = ar;
+    }
 
     public String getProccesszorHűtő() 
     {
@@ -132,7 +141,7 @@ public class Computer extends AComputer
         this.hazTípus = hazTípus;
     }
     
-    public Computer(String procceszor, String ramTipus, int ramMeret, String videoKartyaTipus, String hatterTar, int videoKartyaMeret, String tapegyseg, int tapegysegTeljesitmeny, String hazTípus, String alaplap, String proccesszorHűtő) {
+    public Computer(String procceszor, String ramTipus, int ramMeret, String videoKartyaTipus, String hatterTar, int videoKartyaMeret, String tapegyseg, int tapegysegTeljesitmeny, String hazTípus, String alaplap, String proccesszorHűtő, int ar) {
         this.procceszor = procceszor;
         this.ramTipus = ramTipus;
         this.ramMeret = ramMeret;
@@ -144,11 +153,16 @@ public class Computer extends AComputer
         this.hazTípus = hazTípus;
         this.alaplap = alaplap;
         this.proccesszorHűtő = proccesszorHűtő;
+        this.ar = ar;
     }
+    
+    
 
     @Override
     public String print() {
-        return procceszor + ramTipus + ramMeret + videoKartyaTipus + videoKartyaMeret;
+        return procceszor + ramTipus + ramMeret + videoKartyaTipus + videoKartyaMeret + ar;
     }
+    
+    
     
 }
