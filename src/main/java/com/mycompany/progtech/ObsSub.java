@@ -2,7 +2,6 @@ package com.mycompany.progtech;
 
 import java.awt.List;
 import java.util.ArrayList;
-import java.util.Observer;
 
 
 /**

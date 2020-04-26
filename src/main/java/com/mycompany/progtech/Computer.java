@@ -160,7 +160,7 @@ public class Computer extends AComputer
 
     @Override
     public String print() {
-        return procceszor + ramTipus + ramMeret + videoKartyaTipus + videoKartyaMeret + ar;
+        return "Proccesszor típusa:" + procceszor + " RAM típusa: " + ramTipus + "" + ramMeret + " Gb" + " Videókáryta: " + videoKartyaTipus + " " +  videoKartyaMeret +" Gb";
     }
     
     

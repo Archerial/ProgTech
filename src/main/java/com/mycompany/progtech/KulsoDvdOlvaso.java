@@ -9,15 +9,15 @@ package com.mycompany.progtech;
  *
  * @author Adam
  */
-public class RGB extends ComputerPlus{
-    public RGB(AComputer comp){
+public class KulsoDvdOlvaso extends ComputerPlus {
+
+      public KulsoDvdOlvaso(AComputer comp){
         super(comp);
     }
     
-    
     @Override
-    public String printPlus(){
-        return " + RGB";
+    public String printPlus() {
+        return " + Külső DVD olvasó";
     }
     
 }
