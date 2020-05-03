@@ -7,6 +7,17 @@ Egy olyan grafikus java alkalmazás készítése, melyben lehetőségük van egy
 A program logolja a bizonyos információkat, a logolásra a Singleton pattern-t használom fel.
 Az alap számítógép mellé köthetünk különböző biztosításokat, vagy esetleg extrákat rendelhetünk bele, ezt a Díszítő pattern felhasználásával valósítom meg. HA van szükség extrára, úgy a becsomagolást, egy factory methodal szeretném megvalósítani. Rendeléskor, a user eldöntheti, hogy szeretne-e rá garanciát, ezt egy observer segítségévle kivánom megvalósítani.
 
+Felhasznált patternek:
+-Singleton ~ csak egy logger példányosítás engedélyezett a programban
+-Decorator ~ az összerakott példányokat lehet különböző extrákkal díszíteni
+-Factory method ~ a becsomagolást ezzel valósítjuk meg
+-Observer ~ a user rendelés véglegesítésekor eldöntheti, hogy szeretne-e plussz biztosítást, erre megfigyelőt alkalmazok
+
+Betartott alapelvek:
+Egy felelősség elve.
+Nyitva zárt elv.
+Ioc.
+
 Unit test ötletek:
 A felhasználó nem rakhat össze olyan számítógépet, amiben nincs minden előre definiált mező (alaktérsz) használva.
 A számítógépek ára nem lehet negatív.
