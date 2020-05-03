@@ -19,5 +19,7 @@ public class KulsoDvdOlvaso extends ComputerPlus {
     public String printPlus() {
         return " + Külső DVD olvasó";
     }
+
+   
     
 }
