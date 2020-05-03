@@ -53,4 +53,25 @@ public class Logger {
         writer.println("A(z) (" + id + ") szamu rendeles hibas");
         System.out.println("A(z) (" + id + ") szamu rendeles hibas");
     }
+    
+    public void garancia(){
+        writer.println("A rendeleshez plussz garancia rogzitve");
+    }
+    
+    public void userAdatok(String knev, String vnev, int irszam, String telepules, String utcaHazSzam){
+        writer.println("A megrendelo adatai: " + " Keresztneve: "+ knev + " Vezetekneve: " + vnev + " Iranyitoszam: " + irszam + " Telepules: " + telepules + " Utca es hazszam: " + utcaHazSzam);
+    }
+    
+    public void complete(String pc, String extra){
+        writer.println("A megrendelt szamitogep tipusa: " + pc + " melle valaszott extra: " + extra);
+    }
+    
+    public void parts(AComputer acomputer, int ar){
+        writer.println(" Az valasztott gep adatai: " + acomputer.print() + "  Ara: " + ar);
+    }
+    
+    public void start(String tipus){
+        writer.println(" A user "  + tipus + " tipusu vasarlast valasztott");
+    }
+    
 }

@@ -13,6 +13,8 @@ import java.util.Random;
  */
 public class PCPartsPicker extends javax.swing.JFrame {
     
+    Logger logger = Logger.getInstance();
+    
     Random rnd = new Random();
     int low = 200000;
     int high = 550000;
@@ -89,6 +91,7 @@ public class PCPartsPicker extends javax.swing.JFrame {
         jTextField1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(600, 200));
 
         proccesorComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Válasszon egyet", "Intel i3", "Intel i5", "Intel i7", "Intel i 9", "AMD FX1", "AMD FX2" }));
         proccesorComboBox.setToolTipText("Válasszon egyet");
@@ -346,6 +349,7 @@ public class PCPartsPicker extends javax.swing.JFrame {
 
     private void jToggleButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jToggleButton1MouseClicked
         // TODO add your handling code here:
+        logger.parts(apickedComp, ar);
         OrderFrame ordersData = new OrderFrame();
         ordersData.setVisible(true);
         dispose();

@@ -11,6 +11,8 @@ package com.mycompany.progtech;
  */
 public class CompletePCs extends javax.swing.JFrame {
     
+    Logger logger = Logger.getInstance();
+    
     
 
 
@@ -44,6 +46,7 @@ public class CompletePCs extends javax.swing.JFrame {
         jComboBox2 = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(600, 200));
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -201,6 +204,16 @@ public class CompletePCs extends javax.swing.JFrame {
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
+        String pc = String.valueOf(jComboBox1.getSelectedItem());
+        String extra = String.valueOf(jComboBox2.getSelectedItem());
+        if (jComboBox2.getSelectedIndex() != 0){
+           logger.complete(pc,extra);
+        } else 
+        logger.complete(pc,"nincs");
+        
+        
+        
+        
         OrderFrame ordersData = new OrderFrame();
         ordersData.setVisible(true);
         dispose();
