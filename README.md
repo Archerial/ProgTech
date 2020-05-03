@@ -8,10 +8,10 @@ A program logolja a bizonyos információkat, a logolásra a Singleton pattern-t
 Az alap számítógép mellé köthetünk különböző biztosításokat, vagy esetleg extrákat rendelhetünk bele, ezt a Díszítő pattern felhasználásával valósítom meg. HA van szükség extrára, úgy a becsomagolást, egy factory methodal szeretném megvalósítani. Rendeléskor, a user eldöntheti, hogy szeretne-e rá garanciát, ezt egy observer segítségévle kivánom megvalósítani.
 
 Felhasznált patternek:
--Singleton ~ csak egy logger példányosítás engedélyezett a programban
--Decorator ~ az összerakott példányokat lehet különböző extrákkal díszíteni
--Factory method ~ a becsomagolást ezzel valósítjuk meg
--Observer ~ a user rendelés véglegesítésekor eldöntheti, hogy szeretne-e plussz biztosítást, erre megfigyelőt alkalmazok
+1. Singleton ~ csak egy logger példányosítás engedélyezett a programban
+2. Decorator ~ az összerakott példányokat lehet különböző extrákkal díszíteni
+3. Factory method ~ a becsomagolást ezzel valósítjuk meg
+4. Observer ~ a user rendelés véglegesítésekor eldöntheti, hogy szeretne-e plussz biztosítást, erre megfigyelőt alkalmazok
 
 Betartott alapelvek:
 Egy felelősség elve.
