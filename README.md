@@ -5,7 +5,7 @@ Alkalmazás ötlet:
 
 Egy olyan grafikus java alkalmazás készítése, melyben lehetőségük van egyedileg összerakott, vagy előre össze állított számítógépet rendelni.
 A program logolja a bizonyos információkat, a logolásra a Singleton pattern-t használom fel.
-Az alap számítógép mellé köthetünk különböző biztosításokat, vagy esetleg extrákat rendelhetünk bele, ezt a Díszítő pattern felhasználásával valósítom meg. HA van szükség extrára, úgy a becsomagolást, egy factory methodal szeretném megvalósítani. Rendeléskor, az adatok kitöltésénél (fontos információ) az adatokat proxyban tárolni.
+Az alap számítógép mellé köthetünk különböző biztosításokat, vagy esetleg extrákat rendelhetünk bele, ezt a Díszítő pattern felhasználásával valósítom meg. HA van szükség extrára, úgy a becsomagolást, egy factory methodal szeretném megvalósítani. Rendeléskor, a user eldöntheti, hogy szeretne-e rá garanciát, ezt egy observer segítségévle kivánom megvalósítani.
 
 Unit test ötletek:
 A felhasználó nem rakhat össze olyan számítógépet, amiben nincs minden előre definiált mező (alaktérsz) használva.
