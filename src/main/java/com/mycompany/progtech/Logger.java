@@ -35,9 +35,7 @@ public class Logger {
             writer = new PrintWriter(fw, true);
         }
         catch (IOException e) 
-        {
-            
-        }
+        {}
     }
     
     public void successfull (int price) 

@@ -9,15 +9,10 @@ package com.mycompany.progtech;
  *
  * @author Adam
  */
-public class RGB extends ComputerPlus{
-    
-    public RGB(AComputer comp){
-        super(comp);
+public class CannotBeNegative extends Exception {
+
+    public CannotBeNegative(String message) {
+        super(message);
     }
-    
-    @Override
-    public String printPlus(){
-        return " + RGB";
-    }
-    
+
 }

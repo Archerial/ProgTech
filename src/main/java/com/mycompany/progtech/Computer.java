@@ -5,6 +5,9 @@
  */
 package com.mycompany.progtech;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author Adam
@@ -28,8 +31,12 @@ public class Computer extends AComputer
         return ar;
     }
 
-    public void setAr(int ar) {
-        this.ar = ar;
+    
+    public void setAr(int ar) throws CannotBeNegative { 
+        if (ar <= 0){
+                throw new CannotBeNegative("Hiba, ez az érték nem lehet 0-nál kisebb");
+        } else{
+        this.ar = ar; }
     }
 
     public String getProccesszorHűtő() 
@@ -77,9 +84,14 @@ public class Computer extends AComputer
         return ramMeret;
     }
 
-    public void setRamMeret(int ramMeret) 
+    public void setRamMeret(int ramMeret) throws CannotBeNegative
     {
-        this.ramMeret = ramMeret;
+        if (ramMeret <= 0){
+            throw new CannotBeNegative("Hiba, ez az érték nem lehet kisebb 0-nál.");
+        }else {
+            this.ramMeret = ramMeret;
+        }
+        
     }
 
     public String getVideoKartyaTipus() 
@@ -107,9 +119,14 @@ public class Computer extends AComputer
         return videoKartyaMeret;
     }
 
-    public void setVideoKartyaMeret(int videoKartyaMeret) 
+    public void setVideoKartyaMeret(int videoKartyaMeret) throws CannotBeNegative
     {
-        this.videoKartyaMeret = videoKartyaMeret;
+        if (videoKartyaMeret <= 0){
+            throw new CannotBeNegative("Hiba, ez az érték nem lehet 0-nál kisebb!");
+        } else {
+            this.videoKartyaMeret = videoKartyaMeret;
+        }
+        
     }
 
     public String getTapegyseg() 
@@ -127,9 +144,14 @@ public class Computer extends AComputer
         return tapegysegTeljesitmeny;
     }
 
-    public void setTapegysegTeljesitmeny(int tapegysegTeljesitmeny) 
+    public void setTapegysegTeljesitmeny(int tapegysegTeljesitmeny) throws CannotBeNegative
     {
-        this.tapegysegTeljesitmeny = tapegysegTeljesitmeny;
+        if (tapegysegTeljesitmeny <= 0){
+            throw new CannotBeNegative("Hiba, ez az érték nem lehet 0-nál kisebb");
+        } else {
+            this.tapegysegTeljesitmeny = tapegysegTeljesitmeny;
+        }   
+        
     }
 
     public String getHazTípus() 
@@ -155,7 +177,6 @@ public class Computer extends AComputer
         this.proccesszorHűtő = proccesszorHűtő;
         this.ar = ar;
     }
-    
     
 
     @Override

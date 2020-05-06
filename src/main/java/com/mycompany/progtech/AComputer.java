@@ -26,7 +26,7 @@ abstract public class AComputer
     
      public abstract int getAr();
 
-    public abstract void setAr(int ar);
+    public abstract void setAr(int ar) throws CannotBeNegative;
 
     public abstract String getProccesszorHűtő();
 
@@ -46,7 +46,7 @@ abstract public class AComputer
 
     public abstract int getRamMeret();
 
-    public abstract void setRamMeret(int ramMeret);
+    public abstract void setRamMeret(int ramMeret) throws CannotBeNegative;
 
     public abstract String getVideoKartyaTipus();
 
@@ -58,7 +58,7 @@ abstract public class AComputer
 
     public abstract int getVideoKartyaMeret();
 
-    public abstract void setVideoKartyaMeret(int videoKartyaMeret);
+    public abstract void setVideoKartyaMeret(int videoKartyaMeret) throws CannotBeNegative;
 
     public abstract String getTapegyseg();
 
@@ -66,7 +66,7 @@ abstract public class AComputer
 
     public abstract int getTapegysegTeljesitmeny();
 
-    public abstract void setTapegysegTeljesitmeny(int tapegysegTeljesitmeny);
+    public abstract void setTapegysegTeljesitmeny(int tapegysegTeljesitmeny) throws CannotBeNegative;
 
     public abstract String getHazTípus();
 

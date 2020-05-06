@@ -33,7 +33,7 @@ abstract public class ComputerPlus extends AComputer
     }
 
     @Override
-    public void setAr(int ar) {
+    public void setAr(int ar) throws CannotBeNegative {
        computer.setAr(ar);
     }
 
