@@ -181,7 +181,11 @@ public class Computer extends AComputer
 
     @Override
     public String print() {
-        return "Proccesszor típusa:" + procceszor + " RAM típusa: " + ramTipus + "" + ramMeret + " Gb" + " Videókáryta: " + videoKartyaTipus + " " +  videoKartyaMeret +" Gb";
+        try {
+            return "Proccesszor típusa:" + procceszor + " RAM típusa: " + ramTipus + "" + ramMeret + " Gb" + " Videókáryta: " + videoKartyaTipus + " " +  videoKartyaMeret +" Gb";
+        } catch (Exception e) {
+            return null;
+        }
     }
     
     

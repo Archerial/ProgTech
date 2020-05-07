@@ -1,1 +1,49 @@
 
+A(z) (1)szamu rendeles ara: 10Ft
+A(z) (2) szamu rendeles hibas
+ A user TestTipus tipusu vasarlast valasztott
+A rendeleshez plussz garancia rogzitve
+A megrendelt szamitogep tipusa: testPc melle valaszott extra: testExtra
+A megrendelo adatai:  Keresztneve: TestKnev Vezetekneve: TestVnev Iranyitoszam: 0 Telepules: TestTelepules Utca es hazszam: TestutcaHazSzam
+A(z) (1)szamu rendeles ara: 10Ft
+A(z) (2) szamu rendeles hibas
+ A user TestTipus tipusu vasarlast valasztott
+A rendeleshez plussz garancia rogzitve
+A megrendelt szamitogep tipusa: testPc melle valaszott extra: testExtra
+A megrendelo adatai:  Keresztneve: TestKnev Vezetekneve: TestVnev Iranyitoszam: 0 Telepules: TestTelepules Utca es hazszam: TestutcaHazSzam
+ A user egyedi tipusu vasarlast valasztott
+A(z) (1)szamu rendeles ara: 10Ft
+A(z) (2) szamu rendeles hibas
+ A user TestTipus tipusu vasarlast valasztott
+A rendeleshez plussz garancia rogzitve
+A megrendelt szamitogep tipusa: testPc melle valaszott extra: testExtra
+A megrendelo adatai:  Keresztneve: TestKnev Vezetekneve: TestVnev Iranyitoszam: 0 Telepules: TestTelepules Utca es hazszam: TestutcaHazSzam
+A(z) (1)szamu rendeles ara: 10Ft
+A(z) (2)szamu rendeles ara: 10Ft
+A(z) (3) szamu rendeles hibas
+ A user TestTipus tipusu vasarlast valasztott
+A rendeleshez plussz garancia rogzitve
+A megrendelt szamitogep tipusa: testPc melle valaszott extra: testExtra
+A megrendelo adatai:  Keresztneve: TestKnev Vezetekneve: TestVnev Iranyitoszam: 0 Telepules: TestTelepules Utca es hazszam: TestutcaHazSzam
+A(z) (1)szamu rendeles ara: 10Ft
+A(z) (2) szamu rendeles hibas
+A(z) (3)szamu rendeles ara: 10Ft
+ A user TestTipus tipusu vasarlast valasztott
+A rendeleshez plussz garancia rogzitve
+A megrendelt szamitogep tipusa: testPc melle valaszott extra: testExtra
+A megrendelo adatai:  Keresztneve: TestKnev Vezetekneve: TestVnev Iranyitoszam: 0 Telepules: TestTelepules Utca es hazszam: TestutcaHazSzam
+A(z) (1)szamu rendeles ara: 10Ft
+A(z) (2)szamu rendeles ara: 10Ft
+A(z) (3) szamu rendeles hibas
+A(z) (4) szamu rendeles hibas
+ A user TestTipus tipusu vasarlast valasztott
+ A user TestTipus tipusu vasarlast valasztott
+A rendeleshez plussz garancia rogzitve
+A rendeleshez plussz garancia rogzitve
+A megrendelt szamitogep tipusa: testPc melle valaszott extra: testExtra
+A megrendelt szamitogep tipusa: testPc melle valaszott extra: testExtra
+A megrendelo adatai:  Keresztneve: TestKnev Vezetekneve: TestVnev Iranyitoszam: 0 Telepules: TestTelepules Utca es hazszam: TestutcaHazSzam
+A megrendelo adatai:  Keresztneve: TestKnev Vezetekneve: TestVnev Iranyitoszam: 0 Telepules: TestTelepules Utca es hazszam: TestutcaHazSzam
+ A user egyedi tipusu vasarlast valasztott
+ A user elõre összeálított tipusu vasarlast valasztott
+ A user egyedi tipusu vasarlast valasztott

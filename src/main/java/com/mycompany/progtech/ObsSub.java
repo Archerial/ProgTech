@@ -24,6 +24,7 @@ public class ObsSub implements IObserverable{
     @Override
     public void unregister(IObserver observer){
         observers.remove(observer);
+        System.out.println("Egy observer leiratkozott");
     }
 
     @Override
@@ -31,6 +32,7 @@ public class ObsSub implements IObserverable{
         for (IObserver o : observers){
             o.update();
         }
+        System.out.println("Mind a(z) " + observers.size() + " feliratkozott értesítve lett.");
     }
 
   

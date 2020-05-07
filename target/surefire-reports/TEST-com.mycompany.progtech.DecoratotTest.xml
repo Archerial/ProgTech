@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.mycompany.progtech.LoggerTest" time="0.026" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.mycompany.progtech.DecoratotTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.2+8"/>
@@ -14,7 +14,7 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="HU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="com.mycompany.progtech.LoggerTest"/>
+    <property name="test" value="com.mycompany.progtech.DecoratotTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\Adam\Documents\NetBeansProjects\Progtech"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\Program Files\NetBeans-11.3\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mycompany.progtech.LoggerTest -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mycompany.progtech.DecoratotTest -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
     <property name="user.language" value="hu"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -58,11 +58,6 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mycompany.progtech.LoggerTest" name="testSuccessfull" time="0.012"/>
-  <testcase classname="com.mycompany.progtech.LoggerTest" name="testFailure" time="0.001"/>
-  <testcase classname="com.mycompany.progtech.LoggerTest" name="testStart" time="0.003"/>
-  <testcase classname="com.mycompany.progtech.LoggerTest" name="testGarancia" time="0"/>
-  <testcase classname="com.mycompany.progtech.LoggerTest" name="testComplete" time="0.003"/>
-  <testcase classname="com.mycompany.progtech.LoggerTest" name="testUserAdatok" time="0.007"/>
-  <testcase classname="com.mycompany.progtech.LoggerTest" name="testGetInstance" time="0"/>
+  <testcase classname="com.mycompany.progtech.DecoratotTest" name="testKulsoDvdOlvaso" time="0.003"/>
+  <testcase classname="com.mycompany.progtech.DecoratotTest" name="testRGB" time="0"/>
 </testsuite>

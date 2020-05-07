@@ -36,8 +36,9 @@ public class Logger {
         }
         catch (IOException e) 
         {}
+        
     }
-    
+ 
     public void successfull (int price) 
     {
         id++;

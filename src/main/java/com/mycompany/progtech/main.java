@@ -13,7 +13,7 @@ public class main {
       Logger logger = Logger.getInstance();
       AComputer c1 = new Computer("intel ", "ddr3 ", 4, "nvidia ", "ssd ",4, "TeslaPower ", 500, "cougar", "asus","bequiet",400000);
       //AComputer aComputerPlus = new RGB(c1);
-      logger.successfull(2300);
+      //logger.successfull(2300);
       
       /*
       ObsSub order = new ObsSub();

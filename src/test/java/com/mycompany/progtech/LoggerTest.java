@@ -7,6 +7,7 @@ package com.mycompany.progtech;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
 /**
  *
@@ -29,31 +30,38 @@ public class LoggerTest {
     @Test
     public void testSuccessfull() {
         logger.successfull(10);
+        assertDoesNotThrow( () -> {logger.successfull(10);} );
     }
 
     @Test
     public void testFailure() {
         logger.failure();
+        assertDoesNotThrow( () -> {  logger.failure();} );
     }
 
     @Test
     public void testGarancia() {
         logger.garancia();
+        assertDoesNotThrow( () -> { logger.garancia();} );
     }
 
     @Test
     public void testUserAdatok() {
         logger.userAdatok("TestKnev", "TestVnev", 0, "TestTelepules", "TestutcaHazSzam");
+        assertDoesNotThrow( () -> {logger.userAdatok("TestKnev", "TestVnev", 0, "TestTelepules", "TestutcaHazSzam");});
     }
 
     @Test
     public void testComplete() {
         logger.complete("testPc", "testExtra");
+        assertDoesNotThrow( () -> {logger.complete("testPc", "testExtra");});
+        
     }
 
     @Test
     public void testStart() {
         logger.start("TestTipus");
+        assertDoesNotThrow( () -> {logger.start("TestTipus");});
     }
     
 }
