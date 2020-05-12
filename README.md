@@ -16,7 +16,7 @@ Felhasznált patternek:
 Betartott alapelvek:
  1. Egy felelősség elve - SRP: Minden osztálynak egyetlen felelősséget kell lefednie!!!
  2. Nyita zárt elv - OCP: A program forráskódja legyen nyitott a bővítésre, de zárt a módosításra.
- 3. Függőség megfordításának elve - DIP: A magas szintű modulok ne függjenek az alacsonyabb szintá moduloktól.Mindkettő függjön az abszrakciótól.
+ 3. Függőség megfordításának elve - DIP: A magas szintű modulok ne függjenek az alacsonyabb szintű moduloktól.Mindkettő függjön az abszrakciótól.
  
 
 Unit test ötletek:
