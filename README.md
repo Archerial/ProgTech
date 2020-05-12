@@ -20,6 +20,8 @@ Betartott alapelvek:
  
 
 Unit test ötletek:
+
+
 A felhasználó nem rakhat össze olyan számítógépet, amiben nincs minden előre definiált mező (alaktérsz) használva.
 A számítógépek ára nem lehet negatív.
 A számítógépek attribútumai előre megadott értékekeket vehetnek fel.
@@ -27,4 +29,6 @@ A program a megrendeléskor összeállított részekből egy számítógép pél
 Kétszer ne lehessen ugyanabba becsomagolni, azaz két ugyanaz az extrát ne lehessen rendelni (Pl: RGB led szalag a számítógépben).
 
 Exceptiont váró tesztek:
-Negatív ár esetén.
+
+
+Negatív számok esetén.
